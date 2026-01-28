@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for offer</title>
+</head>
+<body>
+    <h1>Form for offer</h1><hr>
+    <form action="Resume.html">
+        <label for="">Frist name</label>
+        <input type="text" minlength="4" maxlength="15" placeholder="Eg:Rohan" required>
+
+          <label for="">Middle name</label>
+        <input type="text" minlength="4" maxlength="10" placeholder="Eg:Kumar">
+
+        <label for="">Last name</label>
+        <input type="text" minlength="4" maxlength="10" placeholder="Eg:Pandey" required>
+
+        <br><br>
+        <label for="">Email</label>
+        <input type="text" placeholder="abc@gmail.com" required>
+
+        <br><br>
+        <label for="">offer Price </label>
+        <input type="number" minlength="50000" maxlength="500000" required>
+
+        <br><br>
+        <label for="">Date to Join</label required>
+        <input type="date">
+
+        <br><br>
+        <p>Enter type of job </p>
+        <input type="radio" name="Jobtype" id="Parttime">
+        <label for="Parttime">Part Time</label>
+        <input type="radio" name="Jobtype" id="Fulltime" checked>
+        <label for="Fulltime">Full Time</label>
+        <input type="radio" name="Jobtype" id="Weekly">
+        <label for="Weekly">Weekly</label>
+
+        <br><br>
+        <label for="paymentoption">Please select payment type for salary</label>
+        <select id="paymentoption">
+            <option value="select">select</option>
+             <option value="gpay">Gpay</option>
+        <option value="UPI">UPI</option>
+        <option value="Banktranfer">Bank Tranfer</option>
+
+        </select>
+       
+        <br><br>
+        <label for="cmt's">Please provide me your valuble feedback for me </label>
+        <textarea id="cmt's" placeholder="please enter your comment here!!"></textarea>
+
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
